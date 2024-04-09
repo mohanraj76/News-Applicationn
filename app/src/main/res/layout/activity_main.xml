@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6F0F8"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/baseline_newspaper_24" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image1"
+        android:layout_marginStart="110dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="News Feed"
+        android:textColor="#449DE6"
+        android:textSize="40dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:textColor="#41749C"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="150dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="News to feed your Curiosity ... !"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+</RelativeLayout>
